@@ -1,7 +1,6 @@
 {
   "name": "tailwindcssdavegray",
   "version": "1.0.0",
-  "description": "",
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./AcmeRocket/src/input.css -o ./AcmeRocket/build/css/style.css --watch",
@@ -12,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.6.8"
-  }
+  },
+  "dependencies": {
+    "prettier": "^3.3.3"
+  },
+  "description": ""
 }
